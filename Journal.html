@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>The New Newspaper</title>
+	<link rel="stylesheet" type="text/css" href="Journal.css">
+	<script src="jquery-3.3.1.js"></script>
+	<script>
+		$(document).ready(function(){
+			$('.sidebarBtn').click(function(){
+				$('.sidebar').toggleClass('activate');
+				$('.sidebarBtn').toggleClass('toggle');
+				$('.fdp').hide();
+
+	})
+})
+	</script>
+</head>
+<body>
+	<input type="text" name="search" id="fdp" value="" placeholder="Search">
+	<div id="bloc_page">
+		<header>
+			<div id="conteneur">
+				<div id="gauche">
+					<div id="logo">
+						<div id="bigSidebar">
+						<div class="sidebar">
+							<ul>
+								<li><a href="#">World</a></li>
+								<li><a href="#">U.S</a></li>
+								<li><a href="#">Politics</a></li>
+								<li><a href="#">N.Y.</a></li>
+								<li><a href="#">Business</a></li>
+								<li><a href="#">Opinion</a></li>
+								<li><a href="#">Tech</a></li>
+								<li><a href="#">Sciences</a></li>
+							</ul>
+							<button class="sidebarBtn">
+								<span></span>
+							</button>
+						</div>
+						</div>
+
+					</div>
+					<div id="date">
+						<p>Sunday, January 13, 2019</p>
+					</div>
+				</div>
+				<div id="titre">
+					<h1>The New Newspaper</h1>
+				</div>
+				<div id="button">
+					<button>Suscribe</button>
+					<button>Login</button>
+				</div>
+			</div>
+		</header>
+		<nav>
+			<p><a href="#">World</a></p>
+			<p><a href="#">U.S</a></p>
+			<p><a href="#">Politics</a></p>
+			<p><a href="#">N.Y.</a></p>
+			<p><a href="#">Business</a></p>
+			<p><a href="#">Opinion</a></p>
+			<p><a href="#">Tech</a></p>
+			<p><a href="#">Sciences</a></p>
+		</nav>
+		<div class="separation_horizontale">
+		</div>
+		<div class="separation_horizontale"></div>
+		<section>
+			<div id="column1">
+				<div id="article1G">
+					<h2>Article 1G</h2>
+					<p>Et quoniam mirari posse quosdam peregrinos existimo haec lecturos forsitan, si contigerit, quamobrem cum oratio ad ea monstranda deflexerit quae Romae gererentur.</p>
+				</div>
+				<div class="separation_horizontale" id="horizon1"></div>
+				<div id="article2G">
+					<h2>Article 2G</h2>
+					<p>Et quoniam mirari posse quosdam peregrinos existimo haec lecturos forsitan, si contigerit, quamobrem cum oratio ad ea monstranda deflexerit.</p>
+				</div>
+			</div>
+			<div class="separation_verticale"></div>
+			<div id="column2">
+				<div id="mainArticle">
+					<h1>Main article</h1>
+					<p>Et quoniam mirari posse quosdam peregrinos existimo haec lecturos forsitan, si contigerit, quamobrem cum oratio ad ea monstranda deflexerit quae Romae gererentur, nihil praeter seditiones narratur et tabernas et vilitates harum similis alias, summatim causas perstringam nusquam a veritate sponte propria digressurus</p>
+				</div>
+			</div>
+			<div class="separation_verticale"></div>
+			<div id="column3">
+				<div id="article1D">
+					<h2>Article 1D</h2>
+					<p>Et quoniam mirari posse quosdam peregrinos existimo haec lecturos forsitan, si contigerit, quamobrem cum oratio ad ea monstranda deflexerit quae Romae gererentur, nihil praeter seditiones narratur.</p>
+				</div>
+				<div class="separation_horizontale" id="horizon2"></div>
+				<div id="article2D">
+					<h2>Article 2D</h2>
+					<p>Et quoniam mirari posse quosdam peregrinos existimo haec lecturos forsitan, si contigerit.</p>
+				</div>
+			</div>
+		</section>
+		<div class="separation_horizontale"></div>
+		<footer>
+			<p>© 2019 The New Newspaper</p>
+			<div id="edited">
+				<p>Edited by T1b0w</p>
+			</div>
+		</footer>
+	</div>
+</body>
+</html>
+
